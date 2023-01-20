@@ -53,7 +53,7 @@
                 <div class="col-md-3">
                     <div class="links">
                         <h3>How we work</h3>
-                        <p>Free Delivery(from 1000TND)</p>
+                        <p>Gift start From( 1000TND)</p>
                         <p>99 % Customer(Feedbacks)</p>
                         <p>30 Days(for free return)</p>
                         <p>Payment(Secure System)</p>

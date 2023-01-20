@@ -78,28 +78,6 @@ class HomeController extends Controller
         return redirect()->back()->withMessage('Product deleted Successfully');
     }
 
-    /*public function confirmOrder(Request $request) {
-        $user = auth()->user();
-        $name = $user->name;
-        $phone = $user->phone;
-        $address = $user->address;
-        ($value ?? [] as $item)
-        foreach($request->productname as $key=>$productnames)
-        {
-            $order = new Order;
-            $order->product_name = $request->productname[$key];
-            $order->quantity = $request->productquantity[$key];
-            $order->price = $request->productprice[$key];
-            $order->name = $user->name;
-            $order->phone = $phone;
-            $order->address = $address;
-            $order->status = 'not delivered';
-            $order->paid   = 'not paid';
-            $order->save();
-        }
-        DB::table('carts')->where('phone', $phone)->delete();
-        return redirect()->back();
-    }*/
 
     public function confirmOrder(Request $request) {
         if(auth()->check()){
@@ -110,29 +88,7 @@ class HomeController extends Controller
             $cart = cart::where('name', $user->name)->get();
 
             return view('wishlist', compact('cart'));
-            /*if(!empty($request->productname) && !empty($request->productquantity) && !empty($request->productprice)){
-                try{
-                    foreach($request->productname as $key=>$productnames)
-                    {
-                        $order = new Order;
-                        $order->product_name = $request->productname[$key];
-                        $order->quantity = $request->productquantity[$key];
-                        $order->price = $request->productprice[$key];
-                        $order->name = $user->name;
-                        $order->phone = $phone;
-                        $order->address = $address;
-                        $order->status = 'not delivered';
-                        $order->paid   = 'not paid';
-                        $order->save();
-                    }
-                    DB::table('carts')->where('phone', $phone)->delete();
-                    return redirect()->back()->with("status","Order Confirmed");
-                }catch(Exception $e){
-                    return redirect()->back()->with("status","Error: ".$e->getMessage());
-                }
-            }else{
-                return redirect()->back()->with("status","Invalid Data");
-            }*/
+        
         }else{
             return redirect()->route("login")->with("status","Please login first");
         }

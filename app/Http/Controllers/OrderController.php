@@ -67,14 +67,7 @@ class OrderController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Order $order)
-    {
-        //
-        $order->update([
-            'status' => 'delivered'
-        ]);
-        return redirect()->back()->withSuccess('it has been delivered');
-    }
+  
 
     /**
      * Remove the specified resource from storage.

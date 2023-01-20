@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>@yield('title','Unkown page')</title>
+        <title>@yield('title','Online Shop')</title>
          
         <!-- styles -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
@@ -23,7 +23,7 @@
         @include('inc.master-navbar')
         @yield('content')
 
-         @include('inc.footer')
+       
           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
          <script src="{{ asset('js/main.js') }}"></script>
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

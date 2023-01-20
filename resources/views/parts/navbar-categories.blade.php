@@ -17,9 +17,9 @@
               
               <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
                   <div class="row">
-                      <div class="col-md-4">
+                      <?php /*<div class="col-md-4">
                           <img src="{{ asset($cat->image) }}" class="img-fluid">
-                      </div>
+                      </div>*/?>
                       @foreach ($cat->children as $child)
                         <div class="col-md-4">
                           <h4>{{ $child->name }}</h4>   

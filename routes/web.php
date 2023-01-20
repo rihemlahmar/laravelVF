@@ -54,6 +54,7 @@ Route::get('/admin/editProduct/{product:id}', 'ProductController@edit')->name('a
 
 Route::get('/search', 'HomeController@search');
 
+//Route::get('/categories/{id}', 'Cat@sort')->name('category.sort');
 
 
 

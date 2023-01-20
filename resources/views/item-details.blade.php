@@ -10,20 +10,7 @@
                 <div class="col-md-6">
                    
                 <img src="{{ asset($product->image) }}" class="imgHero" id="imgHero" alt="">
-                        <div class="small-img-row">
-                            <div class="small-img-col">
-                                <img src="img/brands/b1.png" alt="" class="small-img">
-                            </div>
-                            <div class="small-img-col">
-                                <img src="img/brands/b1.png" alt="" class="small-img">
-                            </div>
-                            <div class="small-img-col">
-                                <img src="img/newItems/new2.jpg" alt="" class="small-img">
-                            </div>
-                            <div class="small-img-col">
-                                <img src="img/brands/b1.png" alt="" class="small-img">
-                            </div>
-                        </div>
+             
                 
                 </div>
                 <div class="col-md-6">

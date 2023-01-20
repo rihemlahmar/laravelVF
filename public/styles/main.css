@@ -525,11 +525,15 @@ cursor: pointer;
 }
 
 
+
+
+
+
 .category, .item-info{
-    margin: 10em 0 5.5em;
+    margin: 5em 0 5.5em;
 }
 .category h2{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 .category .filters{
     border: 1px solid #ebebeb;

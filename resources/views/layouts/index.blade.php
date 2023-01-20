@@ -13,7 +13,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="offer">
-                                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit <span>up to 40%</span></h1>
+                                    <h1>New Arrivals  <span>Start Shopping</span></h1>
                                     <button class="btn btn-lg"> <a href="{{ route('categories') }}">Start Buying</a> </button>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@
                         <div class="row">
                             <div class="col-md-6">
                             <div class="offer">
-                                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit <span>up to 40%</span></h1>
+                                    <h1>New Arrivals  <span>Start Shopping</span></h1>
                                     <button class="btn btn-lg"><a href="{{ route('categories') }}">Start Buying</a></button>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="offer">
-                                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit <span>up to 40%</span></h1>
+                                    <h1>New Arrivals  <span>Start Shopping</span></h1>
                                     <button class="btn btn-lg"><a href="{{ route('categories') }}">Start Buying</a></button>
                                 </div>
                             </div>
@@ -67,8 +67,8 @@
             <div class="row">
                 <div class="col-sm-6 col-md-3">
                     <div class="works">
-                    <i class="fal fa-truck"></i>
-                    <p>Free Delivery<span>from TND 500</span></p>
+                    <i class="fal fa-gift"></i>
+                    <p>Gifts Start From<span>TND 500</span></p>
                     </div>
                 </div>
     
@@ -110,42 +110,42 @@
                 <div class="col-md-3 col-lg-2 text-center">
                     <div class="brand-container">
                         <img src="img/brands/brand-sumsgg.jpg">
-                        <p><span>27</span>Products</p>
+                        
                     </div>  
                 </div>
     
                 <div class="col-md-3 col-lg-2 text-center">
                     <div class="brand-container">
                         <img src="img/brands/brand-micro.jpg">
-                        <p><span>12</span>Products</p>
+                        
                     </div>
                 </div>
     
                 <div class="col-md-3 col-lg-2 text-center">
                     <div class="brand-container">
                         <img src="img/brands/brand-dell.png">
-                        <p><span>30</span>Products</p>
+                        
                     </div>
                 </div>
     
                 <div class="col-md-3 col-lg-2 text-center">
                     <div class="brand-container">
                         <img src="img/brands/brand-apple.png">
-                        <p><span>55</span>Products</p>
+                        
                     </div>
                 </div>
     
                 <div class="col-md-3 col-lg-2 text-center">
                     <div class="brand-container">
                         <img src="img/brands/brand-huaw.webp">
-                        <p><span>27</span>Products</p>
+                        
                     </div>
                 </div>
     
                 <div class="col-md-3 col-lg-2 text-center">
                     <div class="brand-container">
-                         <img src="img/brands/brand-Infinix.png">
-                         <p><span>40</span>Products</p>
+                         <img src="img/brands/apple.png">
+                         
                     </div>
                 </div>
             </div>

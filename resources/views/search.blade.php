@@ -8,59 +8,7 @@
                 <h2>Category products</h2>
                 <div class="row">
                     <div class="col-md-3">
-                        <?php /*<div class="filters">
-                            <h5>Filtres</h5>
-                            <form action="">
-                                <div class="range">
-                                    <h4>Pice(TND)</h4>
-                                    <div class="row">
-                                        <div class="col">
-                                            <label for="quantity" id="quantity-label">From</label>
-                                            <input type="number" class="form-control" step="1" name="quantity" class="form-control" value="0" min='0'/>
-                                        </div>
-                                        <div class="col">
-                                            <label for="quantity" id="quantity-label">To</label>
-                                            <input type="number" class="form-control" step="1" name="quantity" class="form-control" value="0" min='0'/> 
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div class="remise">
-                                    <h4>Remise(%)</h4>
-                                    <div>
-                                        <input type="radio" id='50' value="50%" name='remise'>
-                                        <label for="50">50% et plus</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" id='40' value="40%" name='remise'>
-                                        <label for="40">50% et plus</label>
-                                    </div>
-                                <div>
-                                        <input type="radio" id='30' value="30%" name='remise'>
-                                        <label for="30">30% et plus</label>
-                                </div>
-                                    <div>
-                                        <input type="radio" id='20' value="20%" name='remise'>
-                                        <label for="20">20% et plus</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" id='10' value="10%" name='remise'>
-                                        <label for="10">10% et plus</label>
-                                    </div>
-                                </div>
-                                <div class="shipped-from">
-                                    <h4>Shipped from</h4>
-                                    <div>
-                                        <input type="radio" id='us' name='shapped'>
-                                        <label for="us">Shipped from abroad</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" id='turc' name='shapped'>
-                                        <label for="turc">Shipped from Tunisia</label>
-                                    </div>
-                                </div>
-                                <input type="Submit" value="Apply" class="btn w-100 btn-warning btn-warning" name='range'>
-                            </form>
-                        </div>*/?>
+                        
                     </div>
                     <div class="col-md-9">
                         @foreach ($products as $product)

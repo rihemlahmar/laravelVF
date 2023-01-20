@@ -40,5 +40,29 @@ class cat extends Controller
                 return redirect('/');
             }
         }
+
+       /* public function sort($id)
+    {
+        if(Request::get('sort')=='price_asc')
+        {
+            $products = Product::where('id', $id)
+            ->orderBy('price', 'asc')
+            ->get();
+
+            
+        }elseif(Request::get('sort')=='price_desc')
+        {
+            $products = Product::where('id', $id)
+            ->orderBy('price', 'desc')
+            ->get();
+            
+        }
+        $products = Product::where('id', $id);
+        return view('categories')
+        ->with( "products" , $products)
+        
+        ->with  ("id",$id);
+
+    }*/
 }
 
